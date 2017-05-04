@@ -1,0 +1,22 @@
+{
+  "name": "burger_shop",
+  "version": "1.0.0",
+  "description": "\"a tasty app that saves all the burgers you would like to eat\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DulceM88/burger_shop.git"
+  },
+  "author": "\"Dulce Medina\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DulceM88/burger_shop/issues"
+  },
+  "homepage": "https://github.com/DulceM88/burger_shop#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
