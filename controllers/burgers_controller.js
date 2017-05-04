@@ -1,5 +1,7 @@
 var express = require("express");
 
+var router = express.Router();
+
 //Imports burger model to use its database functions
 var burger = require("../models/burger.js");
 
@@ -24,3 +26,6 @@ router.post("/", function(req, res) {
 			res.redirect("/");
 		});
 	});
+
+// Export routes for server.js to use.
+module.exports = router;
